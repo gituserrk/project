@@ -1,0 +1,23 @@
+From 1fed9f011ececb703733e96d42ffd086849f511e Mon Sep 17 00:00:00 2001
+From: gituser2 <rajaraok9@yahoo.com>
+Date: Fri, 18 Dec 2020 12:36:38 +0530
+Subject: [PATCH] Function added
+
+---
+ src/a.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/a.c b/src/a.c
+index 26c1dbe..690cdda 100644
+--- a/src/a.c
++++ b/src/a.c
+@@ -3,3 +3,6 @@ int main(){
+ printf("Hello String\n");
+ return 0;
+ }
++void disp(){
++	print("Hello");
++}
+-- 
+2.25.1
+
